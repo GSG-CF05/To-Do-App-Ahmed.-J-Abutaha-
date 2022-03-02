@@ -1,0 +1,96 @@
+/*@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");*/
+
+body {
+    background-image: url("https://media.istockphoto.com/vectors/todo-list-seamless-pattern-universal-background-vector-id509927696?s=612x612");
+  }
+  
+  header { 
+    font-family: cursive;
+    line-height: 1.1;
+    color: rgb(41, 15, 160);
+    margin-left: 16px;
+    margin-right: 16px;
+    text-align: center;
+  }
+  
+  .todo-input {
+  
+      margin-bottom: 15px;
+      width: 343px;
+      height: 50px;
+      border-radius: 10px;
+      color: #1e1690;
+      background-color: aliceblue;
+      border: aliceblue;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      font-size: large;
+      
+     }
+  
+  .todo-button {
+    font-family: cursive;
+    margin-bottom: 15px;
+    width: 343px;
+    height: 50px;
+    border-radius: 10px;
+    color: #5957c2;
+    background-color: aliceblue;
+    border: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  button:hover {
+    background-color: rgb(55, 139, 218);
+  }
+  
+    @media only screen and (min-width: 768px) {
+      body {
+        background-image: url("https://media.istockphoto.com/vectors/todo-list-seamless-pattern-universal-background-vector-id509927696?s=612x612");
+      }
+      
+      header { 
+        font-family: cursive;
+        line-height: 1.1;
+        color: rgb(41, 15, 160);
+        margin-left: 16px;
+        margin-right: 16px;
+        text-align: center;
+      }
+      
+      .todo-input {
+      
+          margin-bottom: 15px;
+          width: 343px;
+          height: 50px;
+          border-radius: 10px;
+          color: #1e1690;
+          background-color: aliceblue;
+          border: aliceblue;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          font-size: large;
+          
+         }
+      
+      .todo-button {
+        font-family: cursive;
+        margin-bottom: 15px;
+        width: 343px;
+        height: 50px;
+        border-radius: 10px;
+        color: #5957c2;
+        background-color: aliceblue;
+        border: aliceblue;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+      
+      button:hover {
+        background-color: rgb(55, 139, 218);
+      }    
