@@ -31,6 +31,7 @@ body {
   
   .todo-button {
     font-family: cursive;
+    font-weight: bold;
     margin-bottom: 15px;
     width: 343px;
     height: 50px;
@@ -46,6 +47,51 @@ body {
   button:hover {
     background-color: rgb(55, 139, 218);
   }
+
+  ul li {
+    position: flex;
+    padding: 12px 8px 12px 40px;
+     font-size: 20px;
+    color: rgb(41, 15, 160);
+    font-family: cursive;
+ } 
+ .delete{
+  padding: 7px;
+  width: auto;
+  color:  #5957c2;
+  text-align: center;
+  font-size: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family: cursive;
+  background-color: aliceblue;
+  border: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: right;
+  margin: 0 5px;
+
+  
+ }
+ .edit{
+  padding: 7px;
+  width: auto;
+  color:  #5957c2;
+  text-align: center;
+  font-size: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family: cursive;
+  background-color: aliceblue;
+  border: aliceblue;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  float: right;
+
+
+ }
   
     @media only screen and (min-width: 768px) {
       body {
@@ -79,6 +125,7 @@ body {
       
       .todo-button {
         font-family: cursive;
+        font-weight: bold;
         margin-bottom: 15px;
         width: 343px;
         height: 50px;
@@ -93,4 +140,50 @@ body {
       
       button:hover {
         background-color: rgb(55, 139, 218);
-      }    
+      }
+    
+      ul li {
+        position: flex;
+        padding: 12px 8px 12px 40px;
+         font-size: 20px;
+        color: rgb(41, 15, 160);
+        font-family: cursive;
+     } 
+     .delete{
+      padding: 7px;
+      width: auto;
+      color: red;
+      text-align: center;
+      font-size: 10px;
+      border-radius: 7px;
+      cursor: pointer;
+      font-family: cursive;
+      background-color: aliceblue;
+      border: aliceblue;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      float: right;
+      margin: 0 5px;
+    
+      
+     }
+     .edit{
+      padding: 7px;
+      width: auto;
+      color:  #5957c2;
+      text-align: center;
+      font-size: 10px;
+      border-radius: 7px;
+      cursor: pointer;
+      font-family: cursive;
+      background-color: aliceblue;
+      border: aliceblue;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      float: right;
+    
+     }
+     }
+    
