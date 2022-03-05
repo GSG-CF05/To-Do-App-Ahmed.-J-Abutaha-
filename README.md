@@ -1,5 +1,5 @@
 # To-Do-App
-   You can check the app right (here)[https://gsg-cf05.github.io/To-Do-App-Ahmed.-J-Abutaha-/]
+   You can check the app right [here](https://gsg-cf05.github.io/To-Do-App-Ahmed.-J-Abutaha-/)
 
 ## Project description
     You can use this app to make a list of tasks you need to complete or things that you want to do. 
